@@ -1,6 +1,4 @@
-<img src="logo_comunicacao.png">
-
-### General info
+### General info - API ComunicAção
 ComunicAção API is a student REST API made to show frequency students. 
 
 #### The student Object 🍵
@@ -59,7 +57,7 @@ Project is created with:
                 |
                 📂---public
                 |       **student.js
-                         tyle.css**
+                         style.css**
                 |       
                 |
                 📂---routes
@@ -80,8 +78,8 @@ $ npm start or nodemon server.js
 ```
 
 ### Next Steps
-- Populate send message (Twilo)
-- Make a simple auth using jsonwebtoken this API 
-- Make better style css
+- Populate send a message with SMS (Twilo)
+- Make a simple auth using the jsonwebtoken this API 
+- Make a better markdown ant HTML and style Css
 	
 # crud-comunicacao-students
