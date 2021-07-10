@@ -1,4 +1,4 @@
-### General info
+### General info - API ComunicAção
 ComunicAção API is a student REST API made to show frequency students. 
 
 #### The student Object 🍵
@@ -80,6 +80,6 @@ $ npm start or nodemon server.js
 ### Next Steps
 - Populate send message (Twilo)
 - Make a simple auth using jsonwebtoken this API 
-- Make better style css
+- Make better htmlh with style css
 	
 # crud-comunicacao-students
