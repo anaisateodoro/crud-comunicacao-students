@@ -17,7 +17,7 @@ app.use("/", routes);
 
 //Index page (static HTML)
 app.get("/",function (req, res) {
-  res.sendFile( __dirname + 'routes/index1.html');
+  res.sendFile( __dirname + 'routes/index.html');
 });
 
 // message to welvome
