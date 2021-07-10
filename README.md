@@ -78,8 +78,8 @@ $ npm start or nodemon server.js
 ```
 
 ### Next Steps
-- Populate send message (Twilo)
-- Make a simple auth using jsonwebtoken this API 
-- Make better htmlh with style css
+- Populate send a message with SMS (Twilo)
+- Make a simple auth using the jsonwebtoken this API 
+- Make a better markdown ant HTML and style Css
 	
 # crud-comunicacao-students
