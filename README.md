@@ -57,7 +57,7 @@ Project is created with:
                 |
                 📂---public
                 |       **student.js
-                         tyle.css**
+                         style.css**
                 |       
                 |
                 📂---routes
