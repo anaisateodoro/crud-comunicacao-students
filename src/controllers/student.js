@@ -1,9 +1,9 @@
-const Student = require("../models/student");
+const student = require("../models/student");
 
 //POST student
 const newstudent = (req, res) => {
   //check if student already exists in db
-  Student.findOne({ name: req.body.nome }, (data) => {
+  student.findOne({ name: req.body.nome }, (data) => {
     //if student not in db, add it
     if (data === null) {
       const newstudent = new student({

@@ -10,4 +10,6 @@ router.get("/student/:name", studentController.getOnestudent);
 router.post("/student/:name", studentController.newComment);
 router.delete("/student/:name",studentController.deleteOnestudent);
 
+
 module.exports = router
+

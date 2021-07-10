@@ -1,5 +1,8 @@
 const express = require("express");
 const routes = require("./src/routes/student");
+const teste = require('./src/routes/index');
+const testeDois = require('./src/routes/student');
+const testeTres = require('./src/routes/student');
 const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
@@ -14,8 +17,17 @@ const app = express();
 
 app.use(cors())
 app.use(express.json()); //parses incoming requests as JSON
+
 app.use("/", routes);
 
+//usando as rotas
+app.use('/', teste)
+//usando as rotas
+app.use('/student', testeDois)
+//
+
+app.use('/student/:name', testeTres)
+//
 
 //Index page (static HTML)
 const optionsPublic = {
@@ -46,7 +58,7 @@ if(hora<=11){
 console.log('Olá! ' + saudacao);
 console.log('Agora são ' + hora + ' horas e ' + min +' minutos.');
 
-const PORT = process.env.PORT ||8080
+const PORT = process.env.PORT //||8000
 
 app.listen(PORT, ()=>{
     console.log(`Bem-vindes! Rodando a API ComunicAção na porta ${PORT}`)
