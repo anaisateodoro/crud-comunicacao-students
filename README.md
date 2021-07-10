@@ -1,5 +1,3 @@
-<img src="logo_comunicacao.png">
-
 ### General info
 ComunicAção API is a student REST API made to show frequency students. 
 
